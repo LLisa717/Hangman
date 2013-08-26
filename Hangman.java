@@ -17,7 +17,7 @@ public class Hangman extends ConsoleProgram {
     private static final int NUM_GUESSES = 8;
     private static Random generator = new Random();
     
-    private HangmanLexicon lexicon;
+    
     private String word;
     private char[] working;
     private String guessedLetters;
